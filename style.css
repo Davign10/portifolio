@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    /*background-color: blue;*/
+}
+
+.menu_lista {
+    display: flex;
+    justify-content: space-between; /* Distribui os itens do menu horizontalmente */
+    width: 100%; 
+    padding: 0 20px; 
+    list-style-type: none; 
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+    /*background-color: red;*/
+}
+
